@@ -1,12 +1,13 @@
 import React, { useEffect , useState} from 'react'
 import Box from '@mui/material/Box';
-import Styles from "./searchBanner.module.css"
+//import Styles from "./searchBanner.module.css"
 import TextField from '@mui/material/TextField';
 import Typography from '@mui/material/Typography'
 import ToggleButton from '@mui/material/ToggleButton';
 import ToggleButtonGroup from '@mui/material/ToggleButtonGroup';
 import CloudIcon from '@mui/icons-material/Cloud';
-import axios from 'axios';
+import Styles from '../components/weather.module.css'
+//simport axios from 'axios';
 
 
 function Home() {
